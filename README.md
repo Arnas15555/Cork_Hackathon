@@ -22,9 +22,8 @@ git checkout -b dev/yourname
 git push -u origin dev/yourname
 
 # When ready to merge into main
-git checkout main
-git pull
-git merge dev/yourname
+git switch main
+git merge "name of branch"
 git push
 ```
 

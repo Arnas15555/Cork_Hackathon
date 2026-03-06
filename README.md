@@ -28,10 +28,15 @@ git checkout -b dev/yourname
 git push -u origin dev/yourname
 
 # When ready to merge into main
-git checkout main
-git pull
-git merge dev/yourname
-git push
+git push origin dev/arnas
+git switch main
+git pull origin main
+git merge dev/arnas
+git push origin main
+
+# When pulling from main
+git switch dev/arnas
+git pull origin main
 ```
 
 ## Team

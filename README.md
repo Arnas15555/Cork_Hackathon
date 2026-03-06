@@ -4,6 +4,12 @@
 
 - Python 3.10+
 
+### Install dependencies
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## Git Workflow
 
 Each teammate works on their own branch and merges into `main` when ready.
